@@ -1,0 +1,9 @@
+version: 1
+
+directories:
+  input: input
+  data: data
+  scratch: scratch
+  output: output
+  logs: logs
+  manifests: manifests

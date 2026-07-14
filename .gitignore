@@ -1,0 +1,11 @@
+.env
+input/
+data/
+scratch/
+output/
+logs/
+manifests/
+
+__pycache__/
+*.pyc
+.DS_Store
