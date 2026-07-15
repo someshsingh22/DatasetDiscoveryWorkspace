@@ -16,8 +16,9 @@ Runtime directories are intentionally untracked:
 - `logs/`: run logs
 - `manifests/`: workspace and checkpoint metadata
 
-Stable workspace context is tracked under `context/`, including the corpus
-schema in `context/dataset_layout.md`.
+The corpus schema is tracked at [`dataset_layout.md`](dataset_layout.md).
+Coding-agent instructions live in [`AGENTS.md`](AGENTS.md); Claude Code loads
+[`CLAUDE.md`](CLAUDE.md), which points to the same instructions.
 
 Experiment definitions, evaluation code, prompts, and orchestration remain in
 the main DatasetDiscovery repository.
