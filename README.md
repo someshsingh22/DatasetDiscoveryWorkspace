@@ -16,5 +16,8 @@ Runtime directories are intentionally untracked:
 - `logs/`: run logs
 - `manifests/`: workspace and checkpoint metadata
 
+Stable workspace context is tracked under `context/`, including the corpus
+schema in `context/dataset_layout.md`.
+
 Experiment definitions, evaluation code, prompts, and orchestration remain in
 the main DatasetDiscovery repository.

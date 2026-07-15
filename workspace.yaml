@@ -1,6 +1,7 @@
 version: 1
 
 directories:
+  context: context
   input: input
   data: data
   scratch: scratch
