@@ -3,9 +3,9 @@
 Disposable execution workspace for DatasetDiscovery coding agents.
 
 This repository contains only the stable workspace skeleton. The
-DatasetDiscovery workspace manager creates and refreshes clones, exposes the
-configured corpus at `data/corpus`, writes a workspace-specific `.env`, and
-backs up declared outputs to S3.
+DatasetDiscovery workspace manager creates and manages clones, exposes the
+configured corpus at `data/corpus`, records run state in
+`manifests/run_metadata.json`, and backs up declared outputs to S3.
 
 Runtime directories are intentionally untracked:
 
